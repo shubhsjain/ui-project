@@ -1,0 +1,168 @@
+body {
+  align-items: center;
+}
+#container {
+  border: 4px solid;
+  position: auto;
+  height: 650;
+  width: 700px;
+}
+.main {
+  border-bottom: solid;
+  margin-bottom: 0px;
+}
+h2 {
+  margin-left: 10px;
+  margin-bottom: 1%;
+  color: darkcyan;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+#bottom {
+  border-top: 0.7solid;
+  margin-top: 0px;
+}
+button {
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 4px;
+  background-color: darkcyan;
+  color: white;
+  height: 35px;
+  width: 80px;
+  margin-top: -25px;
+}
+
+/* Insert Button */
+
+.insert-btn {
+  margin-left: px;
+  margin-top: 480px;
+  color: grey;
+  margin-bottom: px;
+  padding-left: 510.53px;
+  border-top: none;
+  height: 40px;
+  font-weight: 200;
+  font-size: 1.05rem;
+}
+
+/* .insert-btn {
+    position: fixed;
+    right: 30px;
+    bottom: 50px;
+    width: 50px;
+    height: 50px;
+    padding: 1rem;
+    border: 0;
+    border-radius: 50%;
+    margin: 0;
+    font-weight: 200;
+    font-size: 1.05rem;
+    background: var(--grey); */
+/* } */
+
+.insert-btn:hover {
+  background: grey;
+  box-shadow: var(--shadow);
+  color: white;
+}
+
+.insert-btn:active {
+  background: grey;
+  color: black;
+  border: transparent;
+}
+
+#one {
+  width: 700px;
+  position: fixed;
+  margin-top: 10px;
+  display: none;
+}
+
+#one input#first {
+  list-style-type: text;
+  width: 500px;
+  border: 1px solid;
+  border-radius: 5px;
+  display: inline;
+
+  padding-left: 7px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: grey;
+}
+
+#one #Multiplechoice {
+  margin-right: 0px;
+  display: inline;
+  border: none;
+  position: fixed;
+  height: 19px;
+}
+
+i {
+  padding-left: 12px;
+  padding-right: 5px;
+  padding-top: 1px;
+  color: grey;
+}
+#one .on {
+  padding-left: 9px;
+}
+
+#second {
+  margin-left: 22px;
+  margin-top: 5px;
+  border-radius: 5px;
+  display: none;
+}
+#second.show {
+  display: block;
+}
+
+#textbox {
+  margin-top: 5px;
+  display: none;
+  padding-right: 5px;
+  margin-left: 11px;
+}
+#textboxinput {
+  border-radius: 5px;
+  border: grey solid 0.3px;
+}
+
+#textbox.show {
+  display: block;
+}
+
+#textbox i {
+  padding-left: 1px;
+  padding-right: 1px;
+  padding-top: 1px;
+  color: grey;
+  margin-left: 2px;
+}
+
+#a1,
+#a2,
+#a3,
+#a4,
+#a5 {
+  margin-top: 5px;
+  padding-right: 5px;
+  border-radius: 5px;
+  border: grey solid 0.3px;
+}
+
+#textboxall {
+  display: none;
+}
+
+#textboxall.show {
+  display: block;
+}
+
+.a5 {
+  border: none;
+}

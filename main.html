@@ -1,0 +1,140 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- TITLE -->
+    <title>Document</title>
+
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="main.css">
+
+    <script src="https://kit.fontawesome.com/083e78c708.js" crossorigin="anonymous"></script>
+
+
+</head>
+<body>
+    <div id="container">
+
+       <div class="main">
+        <h2>ADD NEW CALL</h2>
+       </div> 
+       
+       <section class="insert-quest" id="insertquestone">
+        <div id="one" >
+            <div class="on">
+                1
+               <input type="text" id="first"/>
+
+                <i class="fa fa-adn" aria-hidden="true"></i>
+
+                <!-- DROPDOWN -->
+
+            <select id="location" name="drop">
+
+            <option value="Select">Select</option>
+
+             <option value="loc5" >Multi-line text</option>
+
+             <option value="loc6" >Single choice</option>
+
+             <option value="loc7">Multi choice</option>
+
+           </select>
+        </div>
+                <!-- MULTI LINE CHOICE-->
+        
+                <div id="second">
+                    
+            <textarea name="term" id="seconda" cols="50" rows="3"></textarea>
+            <input type="button" value="+Add Sub Question"  class="a5"             onclick="showInsertQuest()"/>
+        </div>
+
+           <!-- SINGLE CHOICE -->
+            <div id="textbox">
+
+                <i class="fa fa-arrow-right" aria-hidden="true" ></i>
+
+            <input type="textbox" />
+
+            <input type="button" value="+Add Sub Question"  class="a5"             onclick="showInsertQuest()"/>
+        
+            </div>
+
+            <!-- MULTI CHOICE -->
+            <div id="textboxall">
+                <div >
+
+                    <i class="fa fa-arrow-right" aria-hidden="true" ></i>
+    
+                <input type="textbox" id="a1"/>
+
+                <input type="button" value="+Add Sub Question"  class="a5"             onclick="showInsertQuest()"/>
+            
+                </div>
+                <div >
+
+                    <i class="fa fa-arrow-right" aria-hidden="true" ></i>
+    
+                <input type="textbox" id="a2"/>
+
+                <input type="button" value="+Add Sub Question"  class="a5"             onclick="showInsertQuest()"/>
+            
+                </div>
+                <div >
+
+                    <i class="fa fa-arrow-right" aria-hidden="true" ></i>
+    
+                <input type="textbox" id="a3"/>
+                
+                <input type="button" value="+Add Sub Question"  class="a5"             onclick="showInsertQuest()"/>
+            
+                </div>
+                <div >
+
+                    <i class="fa fa-arrow-right" aria-hidden="true" ></i>
+    
+                <input type="textbox" id="a4"/>
+
+                <input type="button" value="+Add Sub Question"  class="a5"             onclick="showInsertQuest()"/>
+            
+                </div>
+                <div >
+
+                    <i class="fa fa-arrow-right" aria-hidden="true" ></i>
+    
+                <input type="textbox" id="a5"/>
+
+                <input type="button" value="+Add Sub Question"  class="a5"             onclick="showInsertQuest()"/>
+            
+                </div>
+               
+        
+            </div>
+        </div>
+       </section>
+
+
+       <div id="content">
+
+    <!-- Insert Quest Button -->
+
+        <input type="button" value="+ADD NEW QUESTION" class="insert-btn" id="insertbtn" onclick="showInsertQuest()"/>
+
+       </div>
+       <div id="bottom">
+           <h3>
+               <button >
+                   SAVE
+                </button>
+                cancel
+            </h3>
+       </div>
+    </div>
+
+    <!-- JS -->
+    <script src="main.js"></script>
+
+</body>
+</html>
